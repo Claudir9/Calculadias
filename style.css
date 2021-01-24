@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+html{
+    height: 100%;
+    font-family: 'Poppins';
+}
+body{
+    padding: 1%;
+    height: 100%;
+    margin: 0;
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    text-align: center;
+    color: rgba(221, 231, 216, 0.911);
+    font-size: xx-large ;
+    padding: 1%;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+.conteudo{
+    margin-top: 0;
+    border-width: 1px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 109, 0.3);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 200, 216, 0.111);
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 100%;
+    border-radius: 2%;
+}
+#dados{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#botao{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    color: white;
+    font-family: 'Poppins';
+    border: 1px solid rgba(255, 255, 200, 1);
+    padding: 2%;
+    border-radius: 3%;
+}
+#botao:hover{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3));
+    color: black;
+    font-family: 'Poppins';
+    border: 2px solid rgba(255, 255, 200, 0.3);
+    padding: 2%;
+    border-radius: 3%;
+}
+#idade{
+    background: transparent;
+    color: white;
+    font-family: 'Poppins';
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 10%;
+}
+#resultado{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(5, 5, 5, 0.767);
+    padding: 2%;
+    margin-top: 5%;
+    padding: 2%;
+    width: 50%;
+    border-radius: 3px;
+    font-weight: 700;
+}

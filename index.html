@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Exemplo JavaScript</title>
+</head>
+<body>
+    <div class="conteudo">
+    <h1>Você sabe quantos dias de idade você tem?</h1>
+    <div id="texto">
+        <p>Vamos lá!<br><br> Basta você preencher abaixo qual a sua idade no dia de hoje:<br><br></p>
+    </div>
+    <div id="dados">
+        <input type="number" id="idade" max="99" min="0">
+        <label>anos de idade.</label>    
+    </div>
+    <button type="button" id="botao" onclick="dias_idade()">Clique para ver o resultado!</button>
+    <div id="resultado">
+        <p style="display: none">Veja aqui o resultado!</p>
+    </div>
+</div>
+</body>
+</html>
